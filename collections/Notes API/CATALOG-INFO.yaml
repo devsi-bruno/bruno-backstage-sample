@@ -1,0 +1,11 @@
+apiVersion: usebruno.com/v1alpha1
+kind: Bruno
+metadata:
+  name: notes-api
+  title: Notes API
+spec:
+  type: collection
+  url: https://github.com/devsi-bruno/bruno-backstage-sample/tree/main/collections/Notes%20API
+  owner: user:default/alice
+  partOf:
+    - api:default/aws-secret-manager
