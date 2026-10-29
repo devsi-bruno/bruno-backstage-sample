@@ -1,0 +1,5 @@
+opencollection: 1.0.0
+info:
+  name: Notes API
+  version: 1.0.0
+  summary: Sample OpenCollection for the Backstage add-collection flows.

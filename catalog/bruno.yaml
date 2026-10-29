@@ -1,0 +1,21 @@
+apiVersion: usebruno.com/v1alpha1
+kind: Bruno
+metadata:
+  name: sample-notes-api
+  title: Notes API
+spec:
+  type: collection
+  owner: guests
+  url: https://github.com/devsi-bruno/bruno-backstage-sample/tree/main/collections/Notes%20API
+  partOf:
+    - api:default/github-rest-api
+---
+apiVersion: usebruno.com/v1alpha1
+kind: Bruno
+metadata:
+  name: sample-tasks-api
+  title: Tasks API
+spec:
+  type: collection
+  owner: guests
+  url: https://github.com/devsi-bruno/bruno-backstage-sample/tree/main/collections/tasks-api

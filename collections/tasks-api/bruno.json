@@ -1,0 +1,6 @@
+{
+  "version": "1",
+  "name": "Tasks API",
+  "type": "collection",
+  "description": "Sample bruno.json collection for the Backstage add-collection flows."
+}

@@ -1,0 +1,7 @@
+info:
+  name: List notes
+  type: http
+  seq: 1
+http:
+  method: GET
+  url: https://example.com/notes

@@ -1,0 +1,10 @@
+info:
+  name: Create note
+  type: http
+  seq: 2
+http:
+  method: POST
+  url: https://example.com/notes
+  body:
+    type: json
+    data: '{"title":"Hello"}'
