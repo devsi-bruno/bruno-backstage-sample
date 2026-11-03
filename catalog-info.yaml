@@ -1,0 +1,11 @@
+apiVersion: usebruno.com/v1alpha1
+kind: Bruno
+metadata:
+  name: tasks-api
+  title: Tasks API
+spec:
+  type: collection
+  url: https://github.com/devsi-bruno/bruno-backstage-sample/tree/main/collections/tasks-api
+  owner: user:default/carol
+  partOf:
+    - api:default/aws-secret-manager
